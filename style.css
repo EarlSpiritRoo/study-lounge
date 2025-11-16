@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0b0c10;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #ffffff;
+}
+
+.room {
+  text-align: center;
+  padding: 24px 32px;
+  border-radius: 16px;
+  background: radial-gradient(circle at top, #1f2833, #0b0c10);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+  min-width: 320px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.subtitle {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font-size: 14px;
+  color: #c5c6c7;
+}
+
+#avatars-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 70px;
+}
+
+.avatar-circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 2px solid #66fcf1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  background: #1f2833;
+}
+
+.avatar-name {
+  margin-top: 6px;
+  font-size: 13px;
+  color: #c5c6c7;
+}
