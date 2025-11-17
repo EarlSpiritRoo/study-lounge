@@ -1,6 +1,6 @@
 // Fake users for now – later this will be real-time data
 const fakeUsers = [
-  { name: "Lina", emoji: "📚" },
+  { name: "Sloth", emoji: "📚" },
   { name: "Night Owl", emoji: "🌙" },
   { name: "FocusFox", emoji: "🦊" },
   { name: "Coffee Spirit", emoji: "☕" }
